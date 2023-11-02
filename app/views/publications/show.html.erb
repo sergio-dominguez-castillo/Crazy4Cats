@@ -12,6 +12,7 @@
       new_user_reaction_path(publication_id: @publication.id, reaction_type:
       "publication", kind: kind), method: :post %>
   <% end %>
-
+  
+  <%= render 'comments/form' %>
 
 </div>
